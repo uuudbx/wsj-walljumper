@@ -33,5 +33,5 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
     // Return modified
     return { requestHeaders: details.requestHeaders };
   }, 
-  { urls: ["*://*.wsj.com/*"] },
+  { urls: ["*://*.wsj.com/*", "*://*.ft.com/*"] },
   ["blocking", "requestHeaders"]);

@@ -20,6 +20,8 @@
     "webRequest",
     "webRequestBlocking",
     "https://*.wsj.com/*",
-    "http://*.wsj.com/*"
+    "http://*.wsj.com/*",
+    "http://*.ft.com/*",
+    "https://*.ft.com/*"
   ]
 }
